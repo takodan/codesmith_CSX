@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viweport" content="width=device-width, initial-scale=1.0">
+        <meta charset="utf-8">
+        <title>test code</title>
+        <style>
+
+        </style>
+    </head>
+    <body>
+        <script>
+            // creat a object that include element to be checked
+            let arr = [ "a", "b", "c", "d" ]
+            let obj = {
+                "a": true,
+                "e": true,
+            }
+            // iterate thought arr
+            for ( let i in arr){
+                let element = arr[i]
+                // if element in arr is also key in obj
+                if(obj[element]){
+                    console.log( element + " is in obj")
+                }else{
+                    console.log( element + " is not in obj")
+                }
+            }
+
+            const person = {
+                name: "Dan",
+                greeting : function(){
+                    console.log("Hello");
+                }
+            }
+            person["greeting"];
+            person["greeting"]();
+        </script>
+    </body>
+</html>
