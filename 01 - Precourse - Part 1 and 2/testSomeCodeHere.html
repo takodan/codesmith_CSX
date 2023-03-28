@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viweport" content="width=device-width, initial-scale=1.0">
+        <meta charset="utf-8">
+        <title>test code</title>
+        <style>
+
+        </style>
+    </head>
+    <body>
+        <script>
+            const myNums = [1, 2, 6 ];
+            for(let i = 0; i < myNums.length; i++){
+                const num1 = myNums[i];
+                for (let j = 0; j < myNums.length; j++){
+                    const num2 = myNums[j];
+                    console.log("Sum: ", num1 , num2 , num1+num2);
+                    if ( num1 + num2 === 7){
+                        console.log("Lucky Seven!");
+                    }
+                }
+            }
+        </script>
+    </body>
+</html>
