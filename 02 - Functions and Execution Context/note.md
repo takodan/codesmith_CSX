@@ -32,12 +32,14 @@ call stack: a mechanism for an interpreter to keep track of its place in a scrip
 https://developer.mozilla.org/en-US/docs/Glossary/Call_stack
 
 # Intro to JavaScript: Functions and Objects workshop video
+## Functions
+similar to last video
 ## Object
 ```js
 const person = {
-    name: "Dan"
+    name: "Dan"; // key-value pairs called properties
     greeting: function(){
-        return "Hello"
+        return "Hello";
     }
 }
 
