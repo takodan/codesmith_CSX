@@ -1,45 +1,54 @@
-# JavaScript The Hard Parts: Callbacks and Higher Order Functions workshop video
-functional progtamming
-pure functions
-same input same output
+# Introduction to Callbacks and Higher Order Functions video
+generalized function: add parameter
 ```js
-function tenSquare(){
-    return 10 * 10
+// 1. global() pushed in callstack and creat a global execution context
+// 2. declare the function copyArrayAndManipulatesave in global memory
+// 7. call copyArrayAndManipulate() pushed in callstack and creat a local execution context
+// 8. assign parameter value with myArray and multiplyBy2 in local memory
+function copyArrayAndManipulate(array, instructions){
+  // 9. declare the variable output and value [] in local memory
+  let outpot = [];
+  // 10. declare the variable i = 0 in local memory
+  // 11. check if i < array.length
+  for (let i = 0; i < array.length; i++){
+    // 12. invoke method .push and function instructions(as same as multiplyBy2()) with argument array[i]
+    // ( what .push method do refer to Additional resources below )
+    // ( step13 is under step3 )
+    output.push(instructions(array[i]));
+    // 16. i = i + 1
+    // 17. loop the loop( step11 to step16 ) until i is not less then array.length
+  }
+  // 18. return value to result( step6 ) and pop out copyArrayAndManipulate()
+  return output
 }
-
-function numSquare(num){
-    return num*num
+// 3. declare the function multiplyBy2 save in global memory
+// 13. call instructions() pushed in callstack and creat another local execution context in last local
+// ( instructions() is as same as multiplyBy2() so i put the step here, but it is actually calling instructions() )
+// 14. assign parameter value with array in local...local memory
+function multiplyBy2(input){
+  // 15. return value to .push and pop out instructions()
+  return input * 2;
 }
+// 4. declare the constant myArray and value [1, 2, 3] in global memory
+const myArray = [1, 2, 3];
+// 5. declare the constant myArray and value undefined in global memory
+// 6. invoke function copyArrayAndManipulate with arguments myArray and multiplyBy2 ( step7 is under step2 )
+let result = copyArrayAndManipulate( myArray, multiplyBy2);
+// 19. end the global execution context
 ```
+- Note:  
+These step just general thoughts about how these code run.  
+I might miss some ideas(like pointer?) since I don't have CS degree  
+  
+- Additional resources:  
+Array.prototype.push and specifications  
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push  
+https://tc39.es/ecma262/multipage/indexed-collections.html#sec-array.prototype.push  
 
-parameters
-argument
+&nbsp;  
 
-gogobal memory
-functionName = func defition
-myArray = [1, 2, 3]
-result = invoke func > callstack
-
-callstack // first in last out
-cAAMB2(myArray) // finished local, go to global
-global()
-
-local execution
-cAAMB2(myArray)
-i = 0 , 0 < 3 // array.length
-output.push(2) // array[0]*2
-i++
-i = 1 , 1 < 3
-output.push(4) // array[1]*2 , put in to local memory
-i++
-i = 2 , 2 < 3
-output.push(6) // array[2]*2 , put in to local memory
-i++
-
-
-local memory
-array = [1, 2, 3] // myArray
-output = [2, 4, 6 ]
+# JavaScript The Hard Parts: Callbacks and Higher Order Functions workshop video
+I deleted the old note since it is similar to last video
 
 &nbsp;  
 
