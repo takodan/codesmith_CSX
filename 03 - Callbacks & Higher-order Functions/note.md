@@ -6,6 +6,8 @@ generalized function: add parameter
 // 7. call copyArrayAndManipulate() pushed in callstack and creat a local execution context
 // 8. assign parameter value with myArray and multiplyBy2 in local memory
 function copyArrayAndManipulate(array, instructions){
+  // copyArrayAndManipulate( the outer function ) is a higher order function
+  // instructions( function we pass in ) is a callback function
   // 9. declare the variable output and value [] in local memory
   let outpot = [];
   // 10. declare the variable i = 0 in local memory
@@ -16,7 +18,7 @@ function copyArrayAndManipulate(array, instructions){
     // ( step13 is under step3 )
     output.push(instructions(array[i]));
     // 16. i = i + 1
-    // 17. loop the loop( step11 to step16 ) until i is not less then array.length
+    // 17. loop the for loop( step11 to step16 ) until i is not less then array.length
   }
   // 18. return value to result( step6 ) and pop out copyArrayAndManipulate()
   return output
@@ -44,6 +46,8 @@ I might miss some ideas(like pointer?) since I don't have CS degree
 Array.prototype.push and specifications  
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push  
 https://tc39.es/ecma262/multipage/indexed-collections.html#sec-array.prototype.push  
+First-class objects  
+https://isaaccomputerscience.org/concepts/prog_func_first_class_objects?examBoard=all&stage=all  
 
 &nbsp;  
 
