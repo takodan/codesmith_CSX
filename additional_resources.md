@@ -20,3 +20,16 @@ https://stackoverflow.com/questions/8981194/changing-git-commit-message-after-pu
 # TODO
 ## search about
 Promise, await, setTimeout
+## search about
+array methods: map()
+## search about
+function methods
+## search about
+inheritance in js
+## Inheritance works in Constructor Functions
+https://www.tutorialspoint.com/how-inheritance-works-in-constructor-functions-in-javascript
+https://www.geeksforgeeks.org/how-inheritance-works-in-constructor-functions-in-javascript/
+## more about class (chinese)
+https://hackmd.io/@chrisHsiao/BJ_IqRB6I
+## more about class 
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes
