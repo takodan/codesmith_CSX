@@ -65,6 +65,7 @@ counter2(); // 2
 setTimeout()  
 https://developer.mozilla.org/en-US/docs/Web/API/setTimeout  
 
+&nbsp;  
 
 # Challenge: cycleIterator
 ```js
@@ -76,17 +77,20 @@ function fn1 (array){
 
 // same as
 function fn1 (array){
-    counter++;
     return array[counter++];
 }
 
 ```
+
+&nbsp;  
 
 # Challenge: dateStamp
 - Additional resources:  
 Date()  
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date
 https://www.w3schools.com/js/js_dates.asp
+
+&nbsp;  
 
 # Additional Learning Resources
 MDN: Closures  
