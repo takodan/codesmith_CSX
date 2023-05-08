@@ -33,3 +33,9 @@ https://www.geeksforgeeks.org/how-inheritance-works-in-constructor-functions-in-
 https://hackmd.io/@chrisHsiao/BJ_IqRB6I
 ## more about class 
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes
+## search about
+event loop
+## search about
+Hoisting
+## TODO
+rewrite setTimeout code with Promise.

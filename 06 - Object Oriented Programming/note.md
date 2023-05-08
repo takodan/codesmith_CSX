@@ -36,7 +36,7 @@ functionality is next to data
 
 ## the Prototype chain 
 `__proto__` : dunder proto
-`[[Prototype]]`: an internal properties labeld Prototype
+`[[Prototype]]`: an internal property labeld Prototype
 
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain
 
@@ -65,7 +65,7 @@ user1.increment();
 &nbsp;  
 
 ## Inheritance
-- Additional resources: 
+- Additional resources:  
 Inheritance and the prototype chain
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain
 
