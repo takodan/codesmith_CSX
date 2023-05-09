@@ -39,3 +39,9 @@ event loop
 Hoisting
 ## TODO
 rewrite setTimeout code with Promise.
+## review
+Regex
+
+# Additional resources: 
+Deep clone
+https://stackoverflow.com/questions/122102/what-is-the-most-efficient-way-to-deep-clone-an-object-in-javascript
