@@ -1,8 +1,8 @@
 # CodeSmith_CSX
-learning Java Script from CSX  
+learning JavaScript from CSX  
 https://csx.codesmith.io/
 
-# Includes
+## Includes
 1. Data Types
 2. Arrays, Objects, Loops, and Control Flow
 3. Functions
