@@ -177,3 +177,13 @@ console.log(buenoBell.locations[0].owner) //should log 'Will'
 buenoBell.closeStore('Austin'); // Should log 'Bueno Bell closed the store in Austin.'
 buenoBell.closeStore('Maui'); // Should log 'Bueno Bell doesn't have a store in Maui.'
 ```
+
+
+&nbsp;  
+
+# Asynchronous JavaScript
+## setTimeout syntax
+```js
+setTimeout(code, delay) // not recommended
+setTimeout(functionRef, delay, param...)
+```
