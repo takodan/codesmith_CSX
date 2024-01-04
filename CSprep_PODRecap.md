@@ -63,7 +63,11 @@ let reversedNum =  Number(reversedString)
 # Day 5 - Common Elements
 ```js 
 // using arr.filter(callbackFn)
+// using new Set() when result have duplicate element
 ```
+- Additional resources:  
+Array.prototype.sort()  
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set
 
 
 # Day 6 - Single Number
